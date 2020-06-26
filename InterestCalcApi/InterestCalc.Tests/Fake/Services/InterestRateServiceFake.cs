@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace InterestCalc.Tests.Fake.Services
 {
 	public class InterestRateServiceFake : IInterestRateService
 	{
-		public float GetInterestRate()
+		public async Task<float> GetInterestRateAsync()
 		{
 			return 0.01F;
 		}

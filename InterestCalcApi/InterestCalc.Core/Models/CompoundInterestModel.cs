@@ -7,7 +7,7 @@ namespace InterestCalc.Core.Models
 	public class CompoundInterestModel
 	{
 		public decimal InitialValue { get; set; }
-		public float Interest { get; set; }
 		public int TimePeriod { get; set; }
+		public float Interest { get; set; }
 	}
 }
