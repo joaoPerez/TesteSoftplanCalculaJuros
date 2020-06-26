@@ -1,11 +1,10 @@
-﻿using InterestCalc.Api.Models;
-using InterestCalc.Core.Interfaces.Services;
+﻿using InterestCalc.Core.Interfaces.Services;
 using InterestCalc.Core.Models;
+using InterestCalc.Core.Models.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InterestCalc.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class CompoundInterestController : ControllerBase
     {
