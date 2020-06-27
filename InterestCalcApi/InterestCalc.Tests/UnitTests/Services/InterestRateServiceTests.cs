@@ -18,7 +18,7 @@ namespace InterestCalc.Tests.UnitTests.Services
 		[Test]
 		public void GetInterestRate_WhenCalled_ReturnsTheInterestRate()
 		{
-			float result = _interestRateService.GetInterestRate();
+			float result = _interestRateService.GetInterestRateAsync().Result;
 
 			Assert.That(result - 0.01F == 0);
 		}
